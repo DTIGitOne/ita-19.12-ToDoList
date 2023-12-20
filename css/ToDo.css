@@ -1,0 +1,172 @@
+html {
+   height: 100%;
+}
+
+body {
+   height: 100%;
+   margin: 0;
+}
+
+.root {
+   height: 100%;
+   width: 100%;
+   margin: 0;
+   display: flex;
+   background-color: #CEE966;
+   opacity: 0.9; 
+   align-items: flex-end;
+}
+
+.left {
+   width: 50%;
+   height: 100%;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   gap: 20px;
+}
+
+.right {
+   width: 50%;
+   height: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   position: absolute;
+   right: 70px;
+}
+
+.toDoWriteBox {
+   width: 55%;
+   height: 150px;
+   background-color: #fff0b6;
+   border-radius: 30px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   box-shadow: 5px 10px black;
+}
+
+.toDoWriteBoxInner {
+   height: 50px;
+   width: 80%;
+   background-color: #ff7c4f;
+   border-radius: 20px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+#input1 {
+   height: 100%;
+   width: 93%;
+   background-color: #ff7c4f;
+   border-top-left-radius: 20px;
+   border-bottom-left-radius: 20px;
+   border: 2px solid black;
+   font-size: 20px;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#sendButton {
+   height: 56px;
+   width: 7%;
+   border: 2px solid black;
+   border-top-right-radius: 20px;
+   border-bottom-right-radius: 20px;
+   cursor: pointer;
+}
+
+#list {
+   z-index: 1;
+}
+
+.HeadingToDoListDiv  {
+   height: 425px;
+   width: 100%;
+   display: flex;
+   justify-content: center;
+}
+
+#pencil {
+   width: 225px;
+   height: 265px;
+   z-index: 10;
+}
+
+.HeadingToDoList {
+   color: white;
+   font-size: 130px;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-weight: 900;
+   z-index: 1;
+   padding: 90px 100px 0px 100px;
+   letter-spacing: 3px;
+}
+
+#pencilDiv {
+   margin-right: -130px;
+   z-index: 12;
+   height: 500px;
+   display: flex;
+   justify-content: center;
+   align-items: flex-start;
+}
+
+#listInput {
+   display: flex;
+   flex-direction: column;
+   width: 430px;
+   height: 550px; 
+   margin: 0px 40px 0px 4px;
+}
+
+#checkMarkInput {
+   height: 573px;
+   width: 50px;
+   margin-right: 10px;
+}
+
+.ToDoItems {
+   height: 30px;
+   width: 100%;
+   font-size: 20px;
+   z-index: 11;
+   display: flex;
+   margin-bottom: 31px;
+}
+
+#right2 {
+   height: 82.5%;
+   width: 50%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   z-index: 11;
+}
+
+.checkMark {
+   width: 55px;
+   height: 55px;
+   margin-bottom: 1px;
+}
+
+.checkMarkNonDisplay {
+   width: 55px;
+   height: 55px;
+   display: none;
+}
+
+.MarkButton {
+   width: 44px;
+   height: 44px;
+   border-radius: 50%;
+   opacity: 0.1;
+   margin: 10px 0px 6.45px 2px;
+   background-color: #fff0b6;
+}
+
+.checkMarkBox {
+   height: 573px;
+   width: 50px;
+}
