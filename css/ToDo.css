@@ -128,12 +128,15 @@ body {
 }
 
 .ToDoItems {
-   height: 30px;
+   height: 29px;
    width: 100%;
    font-size: 20px;
    z-index: 11;
    display: flex;
-   margin-bottom: 31px;
+   margin-bottom: 30px;
+   background-color: #fff0b6;
+   border: 0px;
+   padding: 0px 0px 0px 0px;
 }
 
 #right2 {
@@ -169,4 +172,9 @@ body {
 .checkMarkBox {
    height: 573px;
    width: 50px;
+}
+
+.listInput2 {
+   width: 100%;
+   height: 100%;
 }

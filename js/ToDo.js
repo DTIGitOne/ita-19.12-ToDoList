@@ -10,7 +10,7 @@ sendButton.addEventListener('click', function() {
 sendButton.addEventListener("click" , function() {
 
   if (input.value !== "") {
-   let ToDoItems = document.createElement("div");
+   let ToDoItems = document.createElement("button");
    ToDoItems.className = "ToDoItems";
    ToDoItems.innerHTML = input.value;
    listInput.append(ToDoItems);
@@ -31,6 +31,11 @@ sendButton.addEventListener("click" , function() {
          checkMark.className = "checkMark";
          ToDoItems.style.color = "green";
       });
+      ToDoItems.addEventListener("click" , function() {
+         ToDoItems.remove();
+         MarkButton.remove();
+         checkMark.remove();
+   });
    }
    }
    
